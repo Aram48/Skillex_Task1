@@ -1,0 +1,85 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Wireless Headphones",
+            "category": "Electronics",
+            "brand": "Brand A",
+            "price": 99.99,
+            "rating": 2,
+            "imageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQTQ3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1687660671363"
+        },
+        {
+            "id": 2,
+            "name": "Bluetooth Speaker",
+            "category": "Electronics",
+            "brand": "Brand B",
+            "price": 49.99,
+            "rating": 4,
+            "imageUrl": "https://i5.walmartimages.com/seo/Portable-Bluetooth-Speaker-Wireless-Speaker-10W-Loud-Stereo-Sound-Outdoor-Speakers-5-0-30H-Playtime-66ft-Range-Dual-Pairing-Home-Party_5c462825-76ea-4776-8265-bd743590a8ca.5ae3c55c65970f584371f215042688b0.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+        },
+        {
+            "id": 3,
+            "name": "Running Shoes",
+            "category": "Footwear",
+            "brand": "Brand C",
+            "price": 59.99,
+            "rating": 3,
+            "imageUrl": "https://cdn11.bigcommerce.com/s-a12530yfk6/images/stencil/original/image-manager/generative-ai-illustration-of-close-up-at-the-runner-feet-is-running-on-the-dirt-route-at-the-jungle-street-and-road-trail-running-sport-action-and-human-challenge-concept-photo.jpeg?t=1693957590"
+        },
+        {
+            "id": 4,
+            "name": "Smartphone",
+            "category": "Electronics",
+            "brand": "Brand A",
+            "price": 499.99,
+            "rating": 5,
+            "imageUrl": "https://www.zigzag.am/media/catalog/product/cache/7c16c88041d39faa139ca3256be9fb23/3/4/347700636.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Leather Jacket",
+            "category": "Clothing",
+            "brand": "Brand E",
+            "price": 199.99,
+            "rating": 4,
+            "imageUrl": "https://www.thejacketmaker.com/assets/v2/5-column/biker_jackets-61bf6d4a509c604540ed4ad7e644692056a8f6848d29aca891fa456b93732807.webp"
+        },
+        {
+            "id": 6,
+            "name": "MacBook",
+            "category": "Electronics",
+            "brand": "Brand A",
+            "price": 1299.99,
+            "rating": 5,
+            "imageUrl": "https://hf-store.pk/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-12-at-1.02.24-AM-1.jpeg"
+        },
+        {
+            "id": 7,
+            "name": "Smartwatch",
+            "category": "Electronics",
+            "brand": "Brand A",
+            "price": 249.99,
+            "rating": 5,
+            "imageUrl": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_hero_09142021_big.jpg.slideshow-xlarge_2x.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Wireless Mouse",
+            "category": "Accessories",
+            "brand": "Brand B",
+            "price": 29.99,
+            "rating": 2,
+            "imageUrl": "https://ca.jlab.com/cdn/shop/files/GOMouse3-min_50cbaccc-84ee-4bcc-91ee-becc86469ee0.jpg?v=1714163734"
+        },
+        {
+            "id": 9,
+            "name": "Yoga Mat",
+            "category": "Fitness",
+            "brand": "Brand F",
+            "price": 34.99,
+            "rating": 5,
+            "imageUrl": "https://www.manduka.com/cdn/shop/files/184011682_GRPADAPT5MM-71-PURPLEHAZE_01.jpg?v=1722384705&width=1500"
+        }
+    ]
+}

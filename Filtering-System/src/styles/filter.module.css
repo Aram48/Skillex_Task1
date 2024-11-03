@@ -1,0 +1,123 @@
+.filter_panel {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+    transition: left 0.3s ease;
+    overflow-y: auto;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.filter_panel.open {
+    left: 0;
+}
+
+.filter_panel h2 {
+    font-size: 18px;
+    color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter_group {
+    margin-bottom: 20px;
+}
+
+.filter_group label {
+    display: block;
+    font-size: 14px;
+    color: #f1f1f1;
+    margin-bottom: 5px;
+}
+
+.filter_group select,
+.filter_group input[type="number"],
+.filter_group input[type="range"] {
+    background-color: #444;
+    color: #e0e0e0;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.filter_group input[type="range"] {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 8px;
+    background: transparent;
+    border-radius: 4px;
+    outline: none;
+}
+
+.priceRangeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priceRangeContainer span {
+    padding: 5px;
+}
+
+.priceInput {
+    width: 70px;
+    background-color: #444;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+}
+
+.rangeSliderContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rangeSlider {
+    flex-grow: 1;
+    background: transparent;
+    margin: 0;
+}
+
+.rangeSlider+.rangeSlider {
+    margin-left: -2px;
+}
+
+.hamburger {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.closeFilter {
+    color: white;
+    margin-left: 140px;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .filter_panel {
+        width: 200px;
+        left: -200px;
+    }
+}
